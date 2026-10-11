@@ -1,0 +1,17 @@
+## Folder structure
+```
+visit-lesotho/
+├── public/
+│   └── images/            photos used on the site
+├── screenshots/           project screenshots
+├── src/
+│   ├── components/        Navbar, Hero, AttractionCard, SearchFilter,
+│   │                      AttractionDetails, EnquiryForm, Footer
+│   ├── pages/             Home, Attractions, Enquiry
+│   ├── data/              attractions.js (array of objects)
+│   ├── App.jsx            routes
+│   ├── main.jsx           entry point
+│   └── index.css          styles and responsive rules
+├── index.html
+├── package.json
+├── vite.config.js
